@@ -18,3 +18,6 @@ For best experiance install the **zsh-autosuggestions** and the **zsh-syntax-hig
 
 ### zshrc-v1
 ![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v1.png?raw=true)
+
+### zshrc-v2
+![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v2.png?raw=true)
