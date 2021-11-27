@@ -1,0 +1,31 @@
+autoload -U colors && colors
+
+# ---Enable Tab highlight---
+autoload -Uz compinit
+compinit
+zstyle ':completion::complete:*' menu select
+
+#Plugins
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
+# ---Prompt---
+_newline=$'\n'
+_lineup=$'\e[1A'
+_linedown=$'\e[1B'
+
+PROMPT=" %F{blue}◈%F{white} %d %F{blue}◈ %k ${_newline}%F{blue} %n@%m%k ➤  %f"
+RPROMPT="%{${_lineup}%}%K{white} %k%K{blue}%F{white} %T %k%f%K{white} %k%{${_linedown}%}"
+
+
+# ---Aliases---
+# Highlighting ls
+alias ls="ls --color=auto"
+# Pacman shortcuts
+alias ins="sudo pacman -Syu"
+alias ser="sudo pacman -Ss"
+alias rem="sudo pacman -Rs"
