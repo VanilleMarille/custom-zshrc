@@ -9,9 +9,9 @@ For best experiance install the **zsh-autosuggestions** and the **zsh-syntax-hig
 
 ## Preset Aliases
 
-* **Install Package** ins = sudo pacman -Syu
-* **Search Package** ser = sudo pacman -Ss 
-* **Remove Package** rem = sudo pacman -Rs  
+* **Install Package:** ins = sudo pacman -Syu
+* **Search Package:** ser = sudo pacman -Ss 
+* **Remove Package:**  rem = sudo pacman -Rs  
 * **Highlighted ls output** ls
 
 ## Previews
