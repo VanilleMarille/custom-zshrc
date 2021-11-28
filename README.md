@@ -16,8 +16,20 @@ For best experiance install the **zsh-autosuggestions** and the **zsh-syntax-hig
 
 ## Previews
 
-### zshrc-v1
+### zshrc_v1
 ![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v1.png?raw=true)
 
-### zshrc-v2
+### zshrc_v2
 ![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v2.png?raw=true)
+
+### zshrc_v3
+![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v3.png?raw=true)
+
+### zshrc_v4
+![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v4.png?raw=true)
+
+### zshrc_v5
+![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v5.png?raw=true)
+
+### zshrc_v6
+![zshrc-v1](https://github.com/user4022/custom-zshrc/blob/main/screenshots/zshrc-v6.png?raw=true)
