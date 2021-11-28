@@ -29,3 +29,8 @@ alias ls="ls --color=auto"
 alias ins="sudo pacman -Syu"
 alias ser="sudo pacman -Ss"
 alias rem="sudo pacman -Rs"
+
+
+# ---Rebind Keys---
+
+bindkey "\e[3~" delete-char
