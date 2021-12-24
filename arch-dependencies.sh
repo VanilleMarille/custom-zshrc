@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -Syu zsh-syntax-highlighting zsh-autosuggestions
+sudo pacman -Syu --noconfirm zsh-syntax-highlighting zsh-autosuggestions
