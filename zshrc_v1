@@ -29,6 +29,13 @@ alias ls="ls --color=auto"
 alias ins="sudo pacman -Syu"
 alias ser="sudo pacman -Ss"
 alias rem="sudo pacman -Rs"
+alias lis="pacman -Qen | expac --timefmt='%F %T' '%n %v %l' - | sort -k3"
+alias lisa="pacman -Qem | expac --timefmt='%F %T' '%n %v %l' - | sort -k3"
+# Git shortcuts
+alias pull="git pull"
+alias push="git push"
+alias commit="git commit"
+alias add="git add"
 
 # Other shortcuts
 
